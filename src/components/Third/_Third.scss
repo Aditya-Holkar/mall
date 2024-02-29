@@ -1,0 +1,35 @@
+.third-main {
+    .top-line {
+        width: 100%;
+        font-family: 'Noe_black', serif;
+        font-weight: 400;
+        font-size: 4.500rem;
+        left: 200px;
+
+        @media screen and (max-width: 980px) {
+            font-size: 2.625rem;
+        }
+
+        @media screen and (max-width: 760px) {
+            font-size: 2rem;
+        }
+    }
+
+    .bottom-line {
+        // keep this separete because its easy to handle the animation
+        width: 100%;
+        font-family: 'Noe_black', serif;
+        font-weight: 400;
+        font-size: 4.500rem;
+        left: 200px;
+        position: relative;
+
+        @media screen and (max-width: 980px) {
+            font-size: 2.625rem;
+        }
+
+        @media screen and (max-width: 760px) {
+            font-size: 2rem;
+        }
+    }
+}

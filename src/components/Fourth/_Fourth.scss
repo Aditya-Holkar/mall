@@ -1,0 +1,208 @@
+.fourth-main {
+    position: relative;
+    padding: 400px 0 600px;
+
+    @media screen and (max-width: 1210px) {
+        padding: 400px 0 425px;
+    }
+
+    @media screen and (max-width: 980px) {
+        padding: 330px 0;
+    }
+
+    @media screen and (max-width: 760px) {
+        padding: 230px 0;
+    }
+
+    .fourth-text {
+        text-align: center;
+        font-family: 'Noe_regular', serif;
+        font-weight: 400;
+        font-size: 10.125rem;
+        position: relative;
+        z-index: 2;
+
+        @media screen and (max-width: 1210px) {
+            font-size: 7.625rem;
+        }
+
+        @media screen and (max-width: 980px) {
+            font-size: 5.125rem;
+        }
+
+        @media screen and (max-width: 760px) {
+            font-size: 3.250rem;
+            padding: 0 25px;
+            line-height: 1;
+        }
+    }
+
+    .ima {
+        position: absolute;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            max-width: 100%;
+        }
+    }
+
+    .one {
+
+        width: 160px;
+        top: 200px;
+        left: -400px;
+        right: 0;
+        margin: 0 auto;
+        z-index: 3;
+
+        @media screen and (max-width: 1210px) {
+            width: 115px;
+            top: 50px;
+        }
+
+        @media screen and (max-width: 980px) {
+            width: 85px;
+            top: 90px;
+            left: -300px;
+        }
+
+        @media screen and (max-width: 760px) {
+            width: 45px;
+            top: 50px;
+            left: -145px;
+        }
+
+    }
+
+    .two {
+        width: 245px;
+        top: 600px;
+        left: 0;
+        z-index: 1;
+
+        @media screen and (max-width: 1210px) {
+            width: 178px;
+            top: 200px;
+        }
+
+        @media screen and (max-width: 980px) {
+            width: 130px;
+            top: 250px;
+        }
+
+        @media screen and (max-width: 760px) {
+            width: 90px;
+            top: 135px;
+        }
+    }
+
+    .three {
+        width: 290px;
+        top: 400px;
+        right: -1050px;
+        left: 0;
+        margin: 0 auto;
+        z-index: 3;
+
+        @media screen and (max-width: 1210px) {
+            width: 210px;
+            top: 90px;
+            left: auto;
+            right: 30px;
+            z-index: 2;
+        }
+
+        @media screen and (max-width: 980px) {
+            width: 155px;
+            top: 150px;
+            right: 40px;
+        }
+
+        @media screen and (max-width: 760px) {
+            width: 70px;
+            top: 65px;
+            right: 20px;
+        }
+    }
+
+    .four {
+        width: 345px;
+        top: 800px;
+        right: -500px;
+        left: 0;
+        margin: 0 auto;
+        z-index: 1;
+
+        @media screen and (max-width: 1210px) {
+            width: 250px;
+            top: 350px;
+        }
+
+        @media screen and (max-width: 980px) {
+            width: 185px;
+            top: 395px;
+            right: -360px;
+        }
+
+        @media screen and (max-width: 760px) {
+            width: 105px;
+            top: 195px;
+            right: -185px;
+        }
+    }
+
+    .five {
+        width: 290px;
+        top: 1000px;
+        left: -500px;
+        right: 0;
+        margin: 0 auto;
+        z-index: 1;
+
+        @media screen and (max-width: 1210px) {
+            width: 210px;
+            top: 500px;
+            left: -330px;
+        }
+
+        @media screen and (max-width: 980px) {
+            width: 155px;
+            top: 500px;
+            left: -270px;
+        }
+
+        @media screen and (max-width: 760px) {
+            width: 85px;
+            top: 325px;
+            left: -140px;
+        }
+    }
+
+    .six {
+        width: 160px;
+        bottom: 0px;
+        right: 130px;
+        z-index: 1;
+
+        @media screen and (max-width: 1210px) {
+            width: 115px;
+            bottom: 100px;
+            right: 100px;
+        }
+
+        @media screen and (max-width: 980px) {
+            width: 85px;
+            bottom: 100px;
+            right: 20px;
+        }
+
+        @media screen and (max-width: 760px) {
+            width: 45px;
+            bottom: 45px;
+            right: 80px;
+        }
+    }
+
+}

@@ -1,0 +1,27 @@
+.out .image {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+}
+
+.out {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+
+.cds--content {
+    all:unset
+}
+
+.cds--css-grid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+.cds--css-grid-column{
+    margin: 0rem 0.031rem;
+}  
